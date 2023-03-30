@@ -1,0 +1,201 @@
+.main-home-1{
+    background-color: #f7f9fc;
+}
+
+.sec-1-title{
+    margin: 40px 0px 10px 0px;
+    font-family: Inter, sans-serif;
+    font-size: 2.375rem;
+    line-height: 1.2;
+    color: rgb(45, 55, 72);
+    font-weight: 700;
+}
+
+.sec-1-subtitle{
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: rgb(100, 110, 115);
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.main-grid-sec-1{
+    padding: 64px 0px 14px 54px;
+}
+
+@media only screen and (max-width:900px){
+    .sec-1-title{
+        margin: 00px 0px 10px 0px;
+        font-family: Inter, sans-serif;
+        font-size: 2.375rem;
+        line-height: 1.2;
+        color: rgb(45, 55, 72);
+        font-weight: 700;
+    }
+
+    .main-grid-sec-1{
+        padding: 30px 0px;
+    }
+
+    .sec-1-svg{
+        margin-top: 50px;
+    }
+}
+
+/* --------------Gride-section---------------- */
+
+.gridsection-main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+    margin:100px 100px;
+
+}
+
+.gridsection-gridbox{
+    display: flex;
+    flex-direction: column !important;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gridsection-title{
+    margin: 0px 0px 0.35em;
+    font-family: Inter, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: 500;
+    color: #2d3748;
+}
+
+.gridsection-subtitle{
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(100, 110, 115);
+}
+
+/* --------------subscribe-section------------------- */
+
+.subscribe-section{
+    /* margin: 30px 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    max-width: 1236px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #f7f9fc;
+}
+
+.sbc-get{
+    margin: 0px 0px 0.75em;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(100, 110, 115);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.sbc-title{
+    margin: 0px 0px 0.55em;
+    font-family: Inter, sans-serif;
+    font-size: 2rem;
+    line-height: 1.167;
+    text-align: center;
+    font-weight: 700;
+    color:#2d3748;
+}
+
+.sbc-subtitle{
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: rgb(100, 110, 115);
+}
+
+.sbc-form{
+    margin-top: 24px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap:10px
+}
+
+/* -------------------Feature-section------------------------- 
+*/
+
+
+.feature-main{
+    max-width: 1236px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.feture-name{
+    margin: 0px 0px 0.35em;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(100, 110, 115);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.feature-title{
+    margin: 0px 0px 0.35em;
+    font-family: Inter, sans-serif;
+    font-size: 2rem;
+    line-height: 1.167;
+    text-align: center;
+    font-weight: 700;
+    color:#2d3748;
+}
+
+.feature-subtitle{
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: center;
+    color: rgb(100, 110, 115);
+}
+
+.feature-card-title{
+    margin: 0px 0px 0.35em;
+    font-family: Inter, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.feature-card-details{
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(100, 110, 115);
+}
